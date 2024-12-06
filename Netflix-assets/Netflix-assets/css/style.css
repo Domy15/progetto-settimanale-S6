@@ -2,16 +2,16 @@
     box-sizing: border-box;
 }
 
-header, main, footer {
+header, .Home, .footer, .HomeProfile {
     background-color: #141414;
 }
 
-img {
+.Home img {
     opacity: 70%;
     z-index: -1;
 }
 
-img:hover {
+.Home img:hover {
     opacity: 100%;
     transform: scale(1.1);
     z-index: 2;
@@ -70,4 +70,9 @@ img:hover {
 
   .checkbox:checked:before {
     border-color: #595959;
+  }
+
+  .button {
+    background-color: #E2E2E2;
+    border: none;
   }
